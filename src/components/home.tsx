@@ -172,7 +172,7 @@ const Home: React.FC = () => {
         className="z-10 w-full max-w-4xl mx-auto px-4 py-8 flex flex-col items-center gap-8"
       >
         <motion.h1
-          className="text-5xl font-bold text-gradient mb-4"
+          className="text-5xl font-bold mb-4"
           initial={{ scale: 0.9 }}
           animate={{ scale: 1 }}
           transition={{
@@ -181,7 +181,8 @@ const Home: React.FC = () => {
             delay: 0.2,
           }}
         >
-          Work Time Tracker
+          <span className="text-primary">Work Time</span>{" "}
+          <span className="text-red-500">Tracker</span>
         </motion.h1>
 
         <motion.div
